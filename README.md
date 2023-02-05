@@ -1,10 +1,10 @@
 # Basic-Payment-app-Java-
-# HI, this is a basic java application for payments where user is asked to login and select the options like Add money, Send moneny and even can see the transcation history.
-# Application description:
-# this java program is regarding the transactions done by the users. The program takes the inputs from the users, for staters the program asks the users for the login credentials and verify them. If right, then it shows the options which are "send money", "add money", "transactions history" and "quit". when "add money" option is selected by the user they can add the money to their account and it shows the updated balance. If the user selects "send money" option the program asks the users to give the user details and verify them and asks the amount the user want to send. "Transaction history" the 3 option which shows what type of transactions were done by the user. "Quit" is the final option through which the user can logout of the payment app and a message pop's up saying thank you for using me. I've taken all the test cases as successfull. 
+ HI, this is a basic java application for payments where user is asked to login and select the options like Add money, Send moneny and even can see the transcation history.
+ Application description:
+ this java program is regarding the transactions done by the users. The program takes the inputs from the users, for staters the program asks the users for the login credentials and verify them. If right, then it shows the options which are "send money", "add money", "transactions history" and "quit". when "add money" option is selected by the user they can add the money to their account and it shows the updated balance. If the user selects "send money" option the program asks the users to give the user details and verify them and asks the amount the user want to send. "Transaction history" the 3 option which shows what type of transactions were done by the user. "Quit" is the final option through which the user can logout of the payment app and a message pop's up saying thank you for using me. I've taken all the test cases as successfull. 
 
 
-# Here is the code:
+ Here is the code:
 
 
 import java.util.Scanner;
