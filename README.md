@@ -6,9 +6,6 @@ this java program is regarding the transactions done by the users. The program t
 
 Here is the code:
 
-
-
-
 import java.util.Scanner;
 public class Main {
     private static String userId;
@@ -16,7 +13,6 @@ public class Main {
     private static double balance;
     private static String[] transactions;
     private static int transactionCount;
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Payment App");
