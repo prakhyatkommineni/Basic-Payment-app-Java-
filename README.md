@@ -55,7 +55,6 @@ public class Main {
     }
     private static boolean isValidCredentials(String userId, int userPin) {
         String[][] validUsers = {{"user1", "1234"}, {"user2", "2345"}, {"user3", "3456"}};
-
     for (String[] validUser : validUsers) {
         if (validUser[0].equals(userId) && Integer.parseInt(validUser[1]) == userPin) {
             return true;
