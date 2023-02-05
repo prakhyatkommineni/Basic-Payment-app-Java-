@@ -6,6 +6,8 @@ this java program is regarding the transactions done by the users. The program t
 
 Here is the code:
 
+
+
 import java.util.Scanner;
 public class Main {
     private static String userId;
@@ -22,7 +24,6 @@ public class Main {
         userPin = scanner.nextInt();
         transactions = new String[10];
         transactionCount = 0;
-
         if (isValidCredentials(userId, userPin)) {
             System.out.println("Login successful!");
             while (true) {
@@ -31,10 +32,8 @@ public class Main {
                 System.out.println("3. Transactions History");
                 System.out.println("4. Quit");
                 System.out.println("Enter your choice: ");
-
                 int choice = scanner.nextInt();
                 scanner.nextLine();
-
                 switch (choice) {
                     case 1:
                          sendMoney();
@@ -54,7 +53,6 @@ public class Main {
             System.out.println("Invalid user id or pin. Please try again.");
         }
     }
-
     private static boolean isValidCredentials(String userId, int userPin) {
         String[][] validUsers = {{"user1", "1234"}, {"user2", "2345"}, {"user3", "3456"}};
 
@@ -67,12 +65,10 @@ public class Main {
     }
     private static void sendMoney() {
          Scanner scanner = new Scanner(System.in);
-   
     System.out.println("Enter user id: ");
     String recipientId = scanner.nextLine();
     System.out.println("Enter user pin: ");
     int recipientPin = scanner.nextInt();
-   
     if (isValidCredentials(recipientId, recipientPin)) {
         System.out.println("user login successful!");
         System.out.println("Enter the amount to send: ");
@@ -95,14 +91,12 @@ public class Main {
     transactions[transactionCount] = "Money added";
     transactionCount++;
     }
-
     private static void printTransactionHistory() {
         System.out.println("Transaction history:");
     for (int i = 0; i < transactionCount; i++) {
         System.out.println(transactions[i]);
     }
     }
-
     private static void quit() {
         System.out.println("Thank you for using me");
         System.exit(0);
