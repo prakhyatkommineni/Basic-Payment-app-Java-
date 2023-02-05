@@ -8,6 +8,7 @@
 
 
 import java.util.Scanner;
+
 public class Main {
     private static String userId;
     private static int userPin;
